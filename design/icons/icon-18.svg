@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- 18 暖米色文艺 · 画中画（橙波纹点睛） -->
+  <rect width="1024" height="1024" rx="228" fill="#F2EFE9"/>
+  <!-- 电视 -->
+  <rect x="182" y="280" width="660" height="420" rx="34" fill="none" stroke="#3F3A34" stroke-width="16"/>
+  <rect x="214" y="312" width="596" height="356" rx="20" fill="#E9E4DA"/>
+  <!-- 屏幕内的 iPhone -->
+  <rect x="396" y="340" width="164" height="300" rx="28" fill="#FDFBF7" stroke="#3F3A34" stroke-width="14"/>
+  <rect x="444" y="372" width="68" height="18" rx="9" fill="#3F3A34"/>
+  <!-- 三条波纹（暖橙） -->
+  <circle cx="686" cy="595" r="14" fill="#EA580C"/>
+  <path d="M 634 565 A 60 60 0 0 1 738 565" fill="none" stroke="#EA580C" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 599.4 545 A 100 100 0 0 1 772.6 545" fill="none" stroke="#EA580C" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 564.8 525 A 140 140 0 0 1 807.2 525" fill="none" stroke="#EA580C" stroke-width="16" stroke-linecap="round"/>
+  <!-- 底座 -->
+  <rect x="487" y="700" width="50" height="40" fill="#3F3A34"/>
+  <rect x="387" y="740" width="250" height="16" rx="8" fill="#3F3A34"/>
+</svg>

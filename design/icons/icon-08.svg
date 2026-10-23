@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- 08 苹果官网白 · 黑设备蓝波纹 -->
+  <rect width="1024" height="1024" rx="228" fill="#F5F5F7"/>
+  <!-- 电视（黑线稿） -->
+  <rect x="196" y="308" width="560" height="350" rx="30" fill="none" stroke="#1D1D1F" stroke-width="16"/>
+  <!-- 三条波纹（苹果蓝） -->
+  <circle cx="476" cy="560" r="17" fill="#0071E3"/>
+  <path d="M 415.4 525 A 70 70 0 0 1 536.6 525" fill="none" stroke="#0071E3" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 376.4 502.5 A 115 115 0 0 1 575.6 502.5" fill="none" stroke="#0071E3" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 337.4 480 A 160 160 0 0 1 614.6 480" fill="none" stroke="#0071E3" stroke-width="16" stroke-linecap="round"/>
+  <!-- 底座 -->
+  <path d="M 400 658 L 380 718" stroke="#1D1D1F" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 552 658 L 572 718" stroke="#1D1D1F" stroke-width="16" stroke-linecap="round"/>
+  <!-- iPhone（黑线稿 + 黑灵动岛） -->
+  <rect x="620" y="430" width="180" height="330" rx="36" fill="none" stroke="#1D1D1F" stroke-width="16"/>
+  <rect x="676" y="454" width="68" height="20" rx="10" fill="#1D1D1F"/>
+</svg>

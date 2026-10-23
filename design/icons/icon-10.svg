@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- 10 翡翠绿 · iPhone 主导（手机在后景电视前投屏） -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#064E3B"/>
+      <stop offset="1" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="228" fill="url(#bg)"/>
+  <!-- 后景小电视 -->
+  <rect x="150" y="460" width="360" height="240" rx="24" fill="rgba(255,255,255,0.08)" stroke="#FFFFFF" stroke-width="13"/>
+  <rect x="230" y="700" width="24" height="52" rx="12" fill="#FFFFFF"/>
+  <rect x="406" y="700" width="24" height="52" rx="12" fill="#FFFFFF"/>
+  <!-- 三条波纹（从 iPhone 朝左飘出） -->
+  <circle cx="510" cy="350" r="14" fill="#FFFFFF"/>
+  <path d="M 477.5 389 A 45 45 0 0 0 477.5 311" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
+  <path d="M 462.5 415 A 75 75 0 0 0 462.5 285" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
+  <path d="M 447.5 441 A 105 105 0 0 0 447.5 259" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
+  <!-- 主角 iPhone -->
+  <rect x="560" y="260" width="220" height="440" rx="44" fill="rgba(255,255,255,0.10)" stroke="#FFFFFF" stroke-width="14"/>
+  <rect x="634" y="284" width="92" height="26" rx="13" fill="#FFFFFF"/>
+</svg>

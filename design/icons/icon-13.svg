@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- 13 画中画 · 苹果白底黑设备（电视里正在播放 iPhone 画面） -->
+  <rect width="1024" height="1024" rx="228" fill="#FFFFFF"/>
+  <!-- 电视（黑实心） -->
+  <rect x="182" y="280" width="660" height="420" rx="34" fill="#1D1D1F"/>
+  <rect x="214" y="312" width="596" height="356" rx="20" fill="#F5F5F7"/>
+  <!-- 屏幕内的 iPhone（画中画） -->
+  <rect x="396" y="340" width="164" height="300" rx="28" fill="#1D1D1F"/>
+  <rect x="410" y="354" width="136" height="272" rx="18" fill="#FFFFFF"/>
+  <rect x="444" y="372" width="68" height="18" rx="9" fill="#1D1D1F"/>
+  <!-- 三条波纹（苹果蓝，屏幕右侧） -->
+  <circle cx="686" cy="595" r="14" fill="#0071E3"/>
+  <path d="M 634 565 A 60 60 0 0 1 738 565" fill="none" stroke="#0071E3" stroke-width="14" stroke-linecap="round"/>
+  <path d="M 599.4 545 A 100 100 0 0 1 772.6 545" fill="none" stroke="#0071E3" stroke-width="14" stroke-linecap="round"/>
+  <path d="M 564.8 525 A 140 140 0 0 1 807.2 525" fill="none" stroke="#0071E3" stroke-width="14" stroke-linecap="round"/>
+  <!-- 底座 -->
+  <rect x="487" y="700" width="50" height="40" fill="#1D1D1F"/>
+  <rect x="387" y="740" width="250" height="16" rx="8" fill="#1D1D1F"/>
+</svg>

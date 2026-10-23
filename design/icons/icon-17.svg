@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- 17 细线极简 · 纯黑底白细线 -->
+  <rect width="1024" height="1024" rx="228" fill="#0A0A0A"/>
+  <!-- 电视（细线） -->
+  <rect x="232" y="320" width="560" height="340" rx="30" fill="none" stroke="#FFFFFF" stroke-width="8"/>
+  <!-- 三条波纹（细线） -->
+  <circle cx="512" cy="565" r="10" fill="#FFFFFF"/>
+  <path d="M 451.4 530 A 70 70 0 0 1 572.6 530" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 412.4 507.5 A 115 115 0 0 1 611.6 507.5" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 373.4 485 A 160 160 0 0 1 650.6 485" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+  <!-- 底座 -->
+  <path d="M 420 660 L 404 712" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 604 660 L 620 712" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+  <!-- iPhone（细线 + 实心灵动岛） -->
+  <rect x="640" y="440" width="170" height="310" rx="34" fill="none" stroke="#FFFFFF" stroke-width="8"/>
+  <rect x="688" y="462" width="74" height="18" rx="9" fill="#FFFFFF"/>
+</svg>

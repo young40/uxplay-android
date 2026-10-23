@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- 02 iOS 蓝 · 白色实心 -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0A84FF"/>
+      <stop offset="1" stop-color="#0055D4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="228" fill="url(#bg)"/>
+  <!-- 电视（白实心 + 深蓝屏） -->
+  <rect x="196" y="308" width="560" height="350" rx="30" fill="#FFFFFF"/>
+  <rect x="228" y="340" width="496" height="286" rx="16" fill="#003E99"/>
+  <!-- 三条波纹（白，屏幕内） -->
+  <circle cx="476" cy="560" r="16" fill="#FFFFFF"/>
+  <path d="M 415.4 525 A 70 70 0 0 1 536.6 525" fill="none" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 376.4 502.5 A 115 115 0 0 1 575.6 502.5" fill="none" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 337.4 480 A 160 160 0 0 1 614.6 480" fill="none" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round"/>
+  <!-- 底座 -->
+  <rect x="330" y="658" width="26" height="58" rx="13" fill="#FFFFFF"/>
+  <rect x="596" y="658" width="26" height="58" rx="13" fill="#FFFFFF"/>
+  <!-- iPhone（白实心 + 深蓝屏 + 白灵动岛） -->
+  <rect x="620" y="430" width="180" height="330" rx="36" fill="#FFFFFF"/>
+  <rect x="636" y="446" width="148" height="298" rx="24" fill="#003E99"/>
+  <rect x="676" y="466" width="68" height="20" rx="10" fill="#FFFFFF"/>
+</svg>

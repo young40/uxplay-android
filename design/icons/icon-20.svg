@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- 20 全息渐变 · 深底彩虹描边 -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#07080F"/>
+      <stop offset="1" stop-color="#0D1022"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.25" r="0.7">
+      <stop offset="0" stop-color="#818CF8" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#818CF8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="holo" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#F472B6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="228" fill="url(#bg)"/>
+  <rect width="1024" height="1024" rx="228" fill="url(#halo)"/>
+  <!-- 电视 -->
+  <rect x="196" y="308" width="560" height="350" rx="30" fill="rgba(255,255,255,0.03)" stroke="url(#holo)" stroke-width="14"/>
+  <!-- 三条波纹 -->
+  <circle cx="476" cy="560" r="15" fill="#22D3EE"/>
+  <path d="M 415.4 525 A 70 70 0 0 1 536.6 525" fill="none" stroke="url(#holo)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M 376.4 502.5 A 115 115 0 0 1 575.6 502.5" fill="none" stroke="url(#holo)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M 337.4 480 A 160 160 0 0 1 614.6 480" fill="none" stroke="url(#holo)" stroke-width="14" stroke-linecap="round"/>
+  <!-- 底座 -->
+  <path d="M 400 658 L 380 716" stroke="url(#holo)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M 552 658 L 572 716" stroke="url(#holo)" stroke-width="14" stroke-linecap="round"/>
+  <!-- iPhone -->
+  <rect x="620" y="430" width="180" height="330" rx="36" fill="rgba(255,255,255,0.03)" stroke="url(#holo)" stroke-width="14"/>
+  <rect x="674" y="452" width="72" height="20" rx="10" fill="#F472B6"/>
+</svg>
