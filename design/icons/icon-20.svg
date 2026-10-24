@@ -14,11 +14,16 @@
       <stop offset="0.5" stop-color="#818CF8"/>
       <stop offset="1" stop-color="#F472B6"/>
     </linearGradient>
+    <!-- 被 iPhone 覆盖的电视边框不绘制（遮挡层次感） -->
+    <mask id="tvMask">
+      <rect width="1024" height="1024" fill="white"/>
+      <rect x="620" y="430" width="180" height="330" rx="36" fill="black" stroke="black" stroke-width="4"/>
+    </mask>
   </defs>
   <rect width="1024" height="1024" rx="228" fill="url(#bg)"/>
   <rect width="1024" height="1024" rx="228" fill="url(#halo)"/>
   <!-- 电视 -->
-  <rect x="196" y="308" width="560" height="350" rx="30" fill="rgba(255,255,255,0.03)" stroke="url(#holo)" stroke-width="14"/>
+  <rect x="196" y="308" width="560" height="350" rx="30" fill="rgba(255,255,255,0.03)" stroke="url(#holo)" stroke-width="14" mask="url(#tvMask)"/>
   <!-- 三条波纹 -->
   <circle cx="476" cy="560" r="15" fill="#22D3EE"/>
   <path d="M 415.4 525 A 70 70 0 0 1 536.6 525" fill="none" stroke="url(#holo)" stroke-width="14" stroke-linecap="round"/>
